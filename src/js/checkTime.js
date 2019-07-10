@@ -12,7 +12,7 @@ class App22 extends Component {
                     <p className="title-style">At gym</p>
                     <p className="action-content">Right now I am most likely preparing myself for the day by physically engaging my body
                     at the gym. Check back in a few hours if you're interested in finding out what I'm most likely
-                    going to doing later.</p>
+                    going to be doing later.</p>
                 </div>
             );
         } else if (hour >= 11 && hour <= 17) {
@@ -22,7 +22,7 @@ class App22 extends Component {
                     <p className="title-style">Learning</p>
                     <p className="action-content">Right now I am most likely keeping myself occupied by either honing my coding skills
                     or looking for new technologies to learn. Check back in a few hours if you're interested in finding out what I'm most likely
-                    going to doing later.</p>
+                    going to be doing later.</p>
                 </div>
 
             );
@@ -33,7 +33,7 @@ class App22 extends Component {
                     <p className="title-style">Hobbies/Relaxation</p>
                     <p>Right now I am most likely putting all my business aside to relax after a hard day's work.
                     Check back in a few hours if you're interested in finding out what I'm most likely
-                    going to doing later.</p>
+                    going to be doing later.</p>
                 </div>
             );
         } else {
@@ -43,7 +43,7 @@ class App22 extends Component {
                     <p className="title-style">Sleeping</p>
                     <p>Right now I am most likely either sleeping or preparing to sleep.
                     Check back in a few hours if you're interested in finding out what I'm most likely
-                    going to doing later.</p>
+                    going to be doing later.</p>
                 </div>
             )
         }

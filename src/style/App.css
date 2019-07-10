@@ -135,8 +135,48 @@
 }
 
 .copyright {
+  width: 100%;
   text-align: center;
-  color: white;
   background-color: #16162d;
   padding: .05%;
+  position: relative;
+}
+
+.up {
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  background-color: #eee;
+  top: -2.5rem;
+  right: 5rem;
+  border-radius: 100%;
+  display: flex;
+  animation: pulse 2s infinite;
+  cursor: pointer;
+}
+
+.up i {
+  color: #16162d;
+  font-size: 2rem;
+  margin: auto;
+}
+
+.copyright p {
+  font-size: 1.4rem;
+  color: white;
+}
+
+@keyframes pulse {
+  0% {
+      /* box-shadow: 0 0 0 0 rgba(253, 87, 191, 0.99); */
+      box-shadow: 0 0 0 0 rgba(255, 232, 56, 0.99);
+  }
+  70% {
+      /* box-shadow: 0 0 0 2rem rgba(253, 87, 191, 0); */
+      box-shadow: 0 0 0 2rem rgba(255, 232, 56, 0);
+  }
+  100% {
+      /* box-shadow: 0 0 0 0 rgba(253, 87, 191, 0); */
+      box-shadow: 0 0 0 0 rgba(255, 232, 56, 0);
+  }
 }
