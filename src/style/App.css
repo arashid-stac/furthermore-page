@@ -180,3 +180,28 @@
       box-shadow: 0 0 0 0 rgba(255, 232, 56, 0);
   }
 }
+
+
+/* iPhone 7s Landscape */
+@media screen and (max-width: 414px) {
+  #primary { width:67%; }
+  #secondary { width:30%; margin-left:3%;}  
+  html { font-size:100%; }
+  h2 {
+    /* container isnt center */
+    font-size: 80%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #primary { width:67%; }
+  #secondary { width:30%; margin-left:3%;}  
+  html { font-size:100%; }
+  h2 {
+    /* container isnt center */
+    font-size: 70%;
+  }
+}
+
+
+
